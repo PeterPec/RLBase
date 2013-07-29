@@ -1,0 +1,10 @@
+Last File Changed:
+	Engine.cpp
+
+Working On:
+	- function getPlayerInput.
+	- Plan is to introduce more gameStates (ie playermove, inventory, spell
+	  list, menu A, menu B, etc.) and to use a switch statement to pass input
+	  control to the respective "input handler". Individual keys may be
+	  programmed then instead of having one consolidated function with every
+	  single possible key in the game.
